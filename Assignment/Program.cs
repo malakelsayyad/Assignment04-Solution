@@ -125,22 +125,48 @@ namespace Assignment
             #endregion
 
             #region Third Project
-            DurationClass D1 = new DurationClass(1, 10, 15);
-            D1.ToString();
-            Console.WriteLine(D1);
+            //DurationClass D1 = new DurationClass(1, 10, 15);
+            //D1.ToString();
+            //Console.WriteLine(D1);
 
-            DurationClass D2 = new DurationClass(3600);
-            D2.ToString();
-            Console.WriteLine(D2);
+            //DurationClass D2 = new DurationClass(3600);
+            //D2.ToString();
+            //Console.WriteLine(D2);
 
-            DurationClass D3 = new DurationClass(7800);
-            D3.ToString();
-            Console.WriteLine(D3);
+            //DurationClass D3 = new DurationClass(7800);
+            //D3.ToString();
+            //Console.WriteLine(D3);
 
-            DurationClass D4 = new DurationClass(666);
-            D4.ToString();
-            Console.WriteLine(D4);
+            //DurationClass D4 = new DurationClass(666);
+            //D4.ToString();
+            //Console.WriteLine(D4);
 
+            //D3 = D1 + D2;
+            //Console.WriteLine($"D3 = D1 + D2 : {D3}");
+
+            //D3 = D1 + 7800; 
+            //Console.WriteLine($"D3 = D1 + 7800 : {D3}");
+
+            //D3 = 666 + D3;
+            //Console.WriteLine($"D3 = 666 + D3 : {D3}");
+
+            //D3 = ++D1;
+            //Console.WriteLine($"D3 = ++D1 : {D3}");
+
+            //D3 = --D2;
+            //Console.WriteLine($"D3 = --D2 : {D3}");
+
+            //D1 = D1 - D2;
+            //Console.WriteLine($"D1 = D1 - D2 : {D1}");
+
+            //Console.WriteLine($" D1 greater than D2? {D1 > D2}");
+            //Console.WriteLine($" D1 less than or equal to D2? {D1 <= D2}");
+
+            //if (D1) Console.WriteLine("D1 is not zero.");
+            //else Console.WriteLine("D1 is zero.");
+
+            //DateTime dateTime = D1;
+            //Console.WriteLine($"D1 as DateTime: {dateTime:HH:mm:ss}");
 
             #endregion
         }
